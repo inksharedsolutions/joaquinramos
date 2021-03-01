@@ -7,10 +7,6 @@ const Banner = () => {
             <section className="banner-section">
                 <div className="container-gt">
                     <div className="one-grid-columns">
-
-                        <div className="grid-child-elem"></div>
-                        <div className="grid-child-elem"></div>
-                        
                         <div className="grid-child-elem">
                             <div className="banner-text">
                                 <p className="left-super-text" data-aos="fade-up" data-aos-duration="3000" >

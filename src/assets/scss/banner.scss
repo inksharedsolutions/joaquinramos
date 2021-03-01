@@ -9,11 +9,15 @@
 .one-grid-columns {
 	display: grid;
 	grid-template-columns: 1fr;
-	height: 70vh;
+	// height: 70vh;
 	justify-content: center;
 	align-items: center;
 	max-width: 700px;
 	margin: 0 auto;
+
+	.grid-child-elem {
+		margin: 200px auto;
+	}
 
 	.left-super-text {
 		position: relative;
@@ -71,6 +75,8 @@
 }
 
 .banner-section {
+	position: relative;
+
 	h1 {
 		font-size: 2.0em;
 		font-weight: bold;
@@ -82,12 +88,11 @@
 		background-image: url("../../static/banner/banner-home.jpg");
 		background-repeat: no-repeat;
 		position: absolute;
-		height: 800px;
+		height: 100%;
 		width: 100%;
 		top: 0%;
 		background-position: center;
 		background-attachment: fixed;
-		background-position: center;
 		background-size: cover;
 		opacity: 0.8;
 	}

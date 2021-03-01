@@ -29,6 +29,18 @@
 	}
 }
 
+@media screen and (max-width: 1200px) {
+	#wrapper-heading-content {
+		h1 {
+			font-size: 3.5em;
+
+			&:after {
+				display: none;
+			}
+		}
+	}
+}
+
 @media screen and (max-width: 990px) {
 	.banner-text {
 		p {
@@ -169,10 +181,6 @@
 
 	#auth-content-wrapper {
 		padding: 13% 10%;
-	}
-
-	#wrapper-heading-content h1:after {
-		display: none;
 	}
 
 	.social-media-nav {
@@ -511,9 +519,6 @@
 
 	#wrapper-heading-content {
 		margin-bottom: 25px;
-		h1 {
-			font-size: 3.5em;
-		}
 	}
 }
 

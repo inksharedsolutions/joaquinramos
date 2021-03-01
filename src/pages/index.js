@@ -13,7 +13,7 @@ const IndexPage = () => (
     <Layout>
       <Helmet title="Home | Joaquin Ramos"/>
       <Nav />
-      <Banner /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <Banner />
       <MidBook />
       <Author />
       {/* <Video /> */}
