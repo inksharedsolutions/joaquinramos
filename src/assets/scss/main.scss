@@ -10,7 +10,6 @@
 @import "navigation";
 @import "banner";
 @import "footer";
-@import "responsive";
 @import "content";
 @import "blog";
 @import "normalize";
@@ -96,7 +95,8 @@ button {
 }
 
 #___gatsby {
-	background: #1f1f21;
+	// background: #1f1f21;
+	background: #313131;
 }
 
 /*Grid Elements*/

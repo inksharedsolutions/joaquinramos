@@ -47,6 +47,18 @@
 			text-align: center;
 			line-height: 2;
 		}
+
+		.right-sub-text {
+			padding-right: 0;
+		}
+
+		.left-super-text span,
+		.right-sub-text span,
+		h1 {
+			font-size: 60px;
+			line-height: 1.2;
+			margin: 0;
+		}
 	}
 
 	.one-grid-columns {
@@ -315,10 +327,6 @@
 		grid-template-columns: 1fr 1fr;
 	}
 
-	.banner-section {
-		height: 90vh !important;
-	}
-
 	.f-letter-elem {
 		font-size: 15rem;
 	}
@@ -511,12 +519,6 @@
 		}
 	}
 
-	.banner-text {
-		h1 {
-			margin-bottom: 0;
-		}
-	}
-
 	#wrapper-heading-content {
 		margin-bottom: 25px;
 	}
@@ -525,18 +527,6 @@
 @media screen and (max-width: 450px) {
 	.banner-text {
 		padding: 0 5px;
-		h1 {
-			font-size: 40px;
-			margin-top: 15px;
-			margin-bottom: 0;
-		}
-
-		.right-sub-text {
-			padding-right: 0;
-			span {
-				font-size: 50px;
-			}
-		}
 
 		p {
 			line-height: 2;
@@ -599,12 +589,6 @@
 	//  #disqus_thread{
 	//      padding: 25px;
 	//  }
-
-	.banner-text {
-		h1 {
-			font-size: 30px;
-		}
-	}
 
 	.book-trailer {
 		h1 {
